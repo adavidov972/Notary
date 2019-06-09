@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AED2679D22ACEB4F00A9DEBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED2679C22ACEB4F00A9DEBE /* AppDelegate.swift */; };
+		AED2679F22ACEB4F00A9DEBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED2679E22ACEB4F00A9DEBE /* ViewController.swift */; };
+		AED267A222ACEB4F00A9DEBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED267A022ACEB4F00A9DEBE /* Main.storyboard */; };
+		AED267A422ACEB5400A9DEBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED267A322ACEB5400A9DEBE /* Assets.xcassets */; };
+		AED267A722ACEB5400A9DEBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED267A522ACEB5400A9DEBE /* LaunchScreen.storyboard */; };
+		AED267B222ACEB5400A9DEBE /* NotaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED267B122ACEB5400A9DEBE /* NotaryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AED267AE22ACEB5400A9DEBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AED2679122ACEB4F00A9DEBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AED2679822ACEB4F00A9DEBE;
+			remoteInfo = Notary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AED2679922ACEB4F00A9DEBE /* Notary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED2679C22ACEB4F00A9DEBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AED2679E22ACEB4F00A9DEBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AED267A122ACEB4F00A9DEBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AED267A322ACEB5400A9DEBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AED267A622ACEB5400A9DEBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AED267A822ACEB5400A9DEBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED267AD22ACEB5400A9DEBE /* NotaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED267B122ACEB5400A9DEBE /* NotaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotaryUITests.swift; sourceTree = "<group>"; };
+		AED267B322ACEB5400A9DEBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AED2679622ACEB4F00A9DEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED267AA22ACEB5400A9DEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AED2679022ACEB4F00A9DEBE = {
+			isa = PBXGroup;
+			children = (
+				AED2679B22ACEB4F00A9DEBE /* Notary */,
+				AED267B022ACEB5400A9DEBE /* NotaryUITests */,
+				AED2679A22ACEB4F00A9DEBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AED2679A22ACEB4F00A9DEBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AED2679922ACEB4F00A9DEBE /* Notary.app */,
+				AED267AD22ACEB5400A9DEBE /* NotaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AED2679B22ACEB4F00A9DEBE /* Notary */ = {
+			isa = PBXGroup;
+			children = (
+				AED2679C22ACEB4F00A9DEBE /* AppDelegate.swift */,
+				AED2679E22ACEB4F00A9DEBE /* ViewController.swift */,
+				AED267A022ACEB4F00A9DEBE /* Main.storyboard */,
+				AED267A322ACEB5400A9DEBE /* Assets.xcassets */,
+				AED267A522ACEB5400A9DEBE /* LaunchScreen.storyboard */,
+				AED267A822ACEB5400A9DEBE /* Info.plist */,
+			);
+			path = Notary;
+			sourceTree = "<group>";
+		};
+		AED267B022ACEB5400A9DEBE /* NotaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AED267B122ACEB5400A9DEBE /* NotaryUITests.swift */,
+				AED267B322ACEB5400A9DEBE /* Info.plist */,
+			);
+			path = NotaryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AED2679822ACEB4F00A9DEBE /* Notary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED267B622ACEB5400A9DEBE /* Build configuration list for PBXNativeTarget "Notary" */;
+			buildPhases = (
+				AED2679522ACEB4F00A9DEBE /* Sources */,
+				AED2679622ACEB4F00A9DEBE /* Frameworks */,
+				AED2679722ACEB4F00A9DEBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notary;
+			productName = Notary;
+			productReference = AED2679922ACEB4F00A9DEBE /* Notary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AED267AC22ACEB5400A9DEBE /* NotaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED267B922ACEB5400A9DEBE /* Build configuration list for PBXNativeTarget "NotaryUITests" */;
+			buildPhases = (
+				AED267A922ACEB5400A9DEBE /* Sources */,
+				AED267AA22ACEB5400A9DEBE /* Frameworks */,
+				AED267AB22ACEB5400A9DEBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AED267AF22ACEB5400A9DEBE /* PBXTargetDependency */,
+			);
+			name = NotaryUITests;
+			productName = NotaryUITests;
+			productReference = AED267AD22ACEB5400A9DEBE /* NotaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AED2679122ACEB4F00A9DEBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Avi Davidov";
+				TargetAttributes = {
+					AED2679822ACEB4F00A9DEBE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AED267AC22ACEB5400A9DEBE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AED2679822ACEB4F00A9DEBE;
+					};
+				};
+			};
+			buildConfigurationList = AED2679422ACEB4F00A9DEBE /* Build configuration list for PBXProject "Notary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AED2679022ACEB4F00A9DEBE;
+			productRefGroup = AED2679A22ACEB4F00A9DEBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AED2679822ACEB4F00A9DEBE /* Notary */,
+				AED267AC22ACEB5400A9DEBE /* NotaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AED2679722ACEB4F00A9DEBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED267A722ACEB5400A9DEBE /* LaunchScreen.storyboard in Resources */,
+				AED267A422ACEB5400A9DEBE /* Assets.xcassets in Resources */,
+				AED267A222ACEB4F00A9DEBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED267AB22ACEB5400A9DEBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AED2679522ACEB4F00A9DEBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED2679F22ACEB4F00A9DEBE /* ViewController.swift in Sources */,
+				AED2679D22ACEB4F00A9DEBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED267A922ACEB5400A9DEBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED267B222ACEB5400A9DEBE /* NotaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AED267AF22ACEB5400A9DEBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AED2679822ACEB4F00A9DEBE /* Notary */;
+			targetProxy = AED267AE22ACEB5400A9DEBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AED267A022ACEB4F00A9DEBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AED267A122ACEB4F00A9DEBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AED267A522ACEB5400A9DEBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AED267A622ACEB5400A9DEBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AED267B422ACEB5400A9DEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AED267B522ACEB5400A9DEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AED267B722ACEB5400A9DEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6YXWQQ4YM;
+				INFOPLIST_FILE = Notary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avidavidov.co.il.Notary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AED267B822ACEB5400A9DEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6YXWQQ4YM;
+				INFOPLIST_FILE = Notary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avidavidov.co.il.Notary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AED267BA22ACEB5400A9DEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6YXWQQ4YM;
+				INFOPLIST_FILE = NotaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avidavidov.co.il.NotaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Notary;
+			};
+			name = Debug;
+		};
+		AED267BB22ACEB5400A9DEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6YXWQQ4YM;
+				INFOPLIST_FILE = NotaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avidavidov.co.il.NotaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Notary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AED2679422ACEB4F00A9DEBE /* Build configuration list for PBXProject "Notary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED267B422ACEB5400A9DEBE /* Debug */,
+				AED267B522ACEB5400A9DEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED267B622ACEB5400A9DEBE /* Build configuration list for PBXNativeTarget "Notary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED267B722ACEB5400A9DEBE /* Debug */,
+				AED267B822ACEB5400A9DEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED267B922ACEB5400A9DEBE /* Build configuration list for PBXNativeTarget "NotaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED267BA22ACEB5400A9DEBE /* Debug */,
+				AED267BB22ACEB5400A9DEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AED2679122ACEB4F00A9DEBE /* Project object */;
+}
