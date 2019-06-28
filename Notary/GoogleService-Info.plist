@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>103277645788-4fghhm8l5eeo2cbianitsm28qh6o20uk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.103277645788-4fghhm8l5eeo2cbianitsm28qh6o20uk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBkJSbj0NYxnlePD3bFrPjN0o8tlzLgdxs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>103277645788</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.adavidov.co.il</string>
+	<key>PROJECT_ID</key>
+	<string>ddg-law</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ddg-law.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:103277645788:ios:c97c277447901981</string>
+	<key>DATABASE_URL</key>
+	<string>https://ddg-law.firebaseio.com</string>
+</dict>
+</plist>

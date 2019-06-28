@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5407FEABAC62AF6983B113E2 /* Pods_NotaryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE166E7900F9E93DD7D698F /* Pods_NotaryUITests.framework */; };
+		9B255E8AEA8980E09E8A9F04 /* Pods_Notary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4164B40C4CB54C1F131D8386 /* Pods_Notary.framework */; };
 		AED2679D22ACEB4F00A9DEBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED2679C22ACEB4F00A9DEBE /* AppDelegate.swift */; };
-		AED2679F22ACEB4F00A9DEBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED2679E22ACEB4F00A9DEBE /* ViewController.swift */; };
 		AED267A222ACEB4F00A9DEBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED267A022ACEB4F00A9DEBE /* Main.storyboard */; };
 		AED267A422ACEB5400A9DEBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED267A322ACEB5400A9DEBE /* Assets.xcassets */; };
 		AED267A722ACEB5400A9DEBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED267A522ACEB5400A9DEBE /* LaunchScreen.storyboard */; };
 		AED267B222ACEB5400A9DEBE /* NotaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED267B122ACEB5400A9DEBE /* NotaryUITests.swift */; };
+		AED267BF22ACEE0B00A9DEBE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AED267BE22ACEE0B00A9DEBE /* GoogleService-Info.plist */; };
+		AED267C122ACF95500A9DEBE /* NotaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED267C022ACF95500A9DEBE /* NotaryCell.swift */; };
+		AED267C422ACFB1400A9DEBE /* Notary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED267C322ACFB1400A9DEBE /* Notary.swift */; };
+		AED267C822AD466C00A9DEBE /* NotarylistTableVCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED267C722AD466C00A9DEBE /* NotarylistTableVCTableViewController.swift */; };
+		AED267CB22AD46AB00A9DEBE /* NotaryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED267CA22AD46AB00A9DEBE /* NotaryListViewModel.swift */; };
+		AED267CD22AD6CBD00A9DEBE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED267CC22AD6CBD00A9DEBE /* Constants.swift */; };
+		AED267CF22AD89D500A9DEBE /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED267CE22AD89D500A9DEBE /* Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E7BA6DEDDE58A338A3530F2 /* Pods-Notary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notary.release.xcconfig"; path = "Pods/Target Support Files/Pods-Notary/Pods-Notary.release.xcconfig"; sourceTree = "<group>"; };
+		181C52161ED0B4D3008AD823 /* Pods-NotaryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotaryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotaryUITests/Pods-NotaryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4164B40C4CB54C1F131D8386 /* Pods_Notary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED2679922ACEB4F00A9DEBE /* Notary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED2679C22ACEB4F00A9DEBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AED2679E22ACEB4F00A9DEBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AED267A122ACEB4F00A9DEBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AED267A322ACEB5400A9DEBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AED267A622ACEB5400A9DEBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +46,16 @@
 		AED267AD22ACEB5400A9DEBE /* NotaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED267B122ACEB5400A9DEBE /* NotaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotaryUITests.swift; sourceTree = "<group>"; };
 		AED267B322ACEB5400A9DEBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED267BE22ACEE0B00A9DEBE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AED267C022ACF95500A9DEBE /* NotaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotaryCell.swift; sourceTree = "<group>"; };
+		AED267C322ACFB1400A9DEBE /* Notary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notary.swift; sourceTree = "<group>"; };
+		AED267C722AD466C00A9DEBE /* NotarylistTableVCTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotarylistTableVCTableViewController.swift; sourceTree = "<group>"; };
+		AED267CA22AD46AB00A9DEBE /* NotaryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotaryListViewModel.swift; sourceTree = "<group>"; };
+		AED267CC22AD6CBD00A9DEBE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AED267CE22AD89D500A9DEBE /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		BAE166E7900F9E93DD7D698F /* Pods_NotaryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotaryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16524527A6C99400F784139 /* Pods-Notary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Notary/Pods-Notary.debug.xcconfig"; sourceTree = "<group>"; };
+		E977A94FC7422713D8FFBD78 /* Pods-NotaryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotaryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotaryUITests/Pods-NotaryUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B255E8AEA8980E09E8A9F04 /* Pods_Notary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5407FEABAC62AF6983B113E2 /* Pods_NotaryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +84,8 @@
 				AED2679B22ACEB4F00A9DEBE /* Notary */,
 				AED267B022ACEB5400A9DEBE /* NotaryUITests */,
 				AED2679A22ACEB4F00A9DEBE /* Products */,
+				E243FC70A878667AE35BB1C1 /* Pods */,
+				F83AEA3E7B86137A254CF54B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +101,18 @@
 		AED2679B22ACEB4F00A9DEBE /* Notary */ = {
 			isa = PBXGroup;
 			children = (
+				AED267C922AD467900A9DEBE /* ViewModels */,
+				AED267C622AD463500A9DEBE /* Controllers */,
+				AED267C522AD433900A9DEBE /* view */,
+				AED267C222ACFB0200A9DEBE /* Model */,
 				AED2679C22ACEB4F00A9DEBE /* AppDelegate.swift */,
-				AED2679E22ACEB4F00A9DEBE /* ViewController.swift */,
 				AED267A022ACEB4F00A9DEBE /* Main.storyboard */,
 				AED267A322ACEB5400A9DEBE /* Assets.xcassets */,
 				AED267A522ACEB5400A9DEBE /* LaunchScreen.storyboard */,
+				AED267BE22ACEE0B00A9DEBE /* GoogleService-Info.plist */,
 				AED267A822ACEB5400A9DEBE /* Info.plist */,
+				AED267CC22AD6CBD00A9DEBE /* Constants.swift */,
+				AED267CE22AD89D500A9DEBE /* Extentions.swift */,
 			);
 			path = Notary;
 			sourceTree = "<group>";
@@ -96,6 +126,58 @@
 			path = NotaryUITests;
 			sourceTree = "<group>";
 		};
+		AED267C222ACFB0200A9DEBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AED267C322ACFB1400A9DEBE /* Notary.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AED267C522AD433900A9DEBE /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AED267C022ACF95500A9DEBE /* NotaryCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AED267C622AD463500A9DEBE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AED267C722AD466C00A9DEBE /* NotarylistTableVCTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AED267C922AD467900A9DEBE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AED267CA22AD46AB00A9DEBE /* NotaryListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E243FC70A878667AE35BB1C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C16524527A6C99400F784139 /* Pods-Notary.debug.xcconfig */,
+				0E7BA6DEDDE58A338A3530F2 /* Pods-Notary.release.xcconfig */,
+				181C52161ED0B4D3008AD823 /* Pods-NotaryUITests.debug.xcconfig */,
+				E977A94FC7422713D8FFBD78 /* Pods-NotaryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F83AEA3E7B86137A254CF54B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4164B40C4CB54C1F131D8386 /* Pods_Notary.framework */,
+				BAE166E7900F9E93DD7D698F /* Pods_NotaryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AED267B622ACEB5400A9DEBE /* Build configuration list for PBXNativeTarget "Notary" */;
 			buildPhases = (
+				0A68C1896EFC0D88AF3B8AB2 /* [CP] Check Pods Manifest.lock */,
 				AED2679522ACEB4F00A9DEBE /* Sources */,
 				AED2679622ACEB4F00A9DEBE /* Frameworks */,
 				AED2679722ACEB4F00A9DEBE /* Resources */,
+				210EDA2AAA2F81E0E5C4D033 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AED267B922ACEB5400A9DEBE /* Build configuration list for PBXNativeTarget "NotaryUITests" */;
 			buildPhases = (
+				7BE97ACDADF20948D1E42870 /* [CP] Check Pods Manifest.lock */,
 				AED267A922ACEB5400A9DEBE /* Sources */,
 				AED267AA22ACEB5400A9DEBE /* Frameworks */,
 				AED267AB22ACEB5400A9DEBE /* Resources */,
@@ -178,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AED267A722ACEB5400A9DEBE /* LaunchScreen.storyboard in Resources */,
+				AED267BF22ACEE0B00A9DEBE /* GoogleService-Info.plist in Resources */,
 				AED267A422ACEB5400A9DEBE /* Assets.xcassets in Resources */,
 				AED267A222ACEB4F00A9DEBE /* Main.storyboard in Resources */,
 			);
@@ -192,13 +278,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A68C1896EFC0D88AF3B8AB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Notary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		210EDA2AAA2F81E0E5C4D033 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Notary/Pods-Notary-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Notary/Pods-Notary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BE97ACDADF20948D1E42870 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotaryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AED2679522ACEB4F00A9DEBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED2679F22ACEB4F00A9DEBE /* ViewController.swift in Sources */,
+				AED267C122ACF95500A9DEBE /* NotaryCell.swift in Sources */,
+				AED267CB22AD46AB00A9DEBE /* NotaryListViewModel.swift in Sources */,
+				AED267C422ACFB1400A9DEBE /* Notary.swift in Sources */,
+				AED267C822AD466C00A9DEBE /* NotarylistTableVCTableViewController.swift in Sources */,
 				AED2679D22ACEB4F00A9DEBE /* AppDelegate.swift in Sources */,
+				AED267CD22AD6CBD00A9DEBE /* Constants.swift in Sources */,
+				AED267CF22AD89D500A9DEBE /* Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +536,7 @@
 		};
 		AED267B722ACEB5400A9DEBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C16524527A6C99400F784139 /* Pods-Notary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +555,7 @@
 		};
 		AED267B822ACEB5400A9DEBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E7BA6DEDDE58A338A3530F2 /* Pods-Notary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +574,7 @@
 		};
 		AED267BA22ACEB5400A9DEBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 181C52161ED0B4D3008AD823 /* Pods-NotaryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -414,6 +595,7 @@
 		};
 		AED267BB22ACEB5400A9DEBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E977A94FC7422713D8FFBD78 /* Pods-NotaryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

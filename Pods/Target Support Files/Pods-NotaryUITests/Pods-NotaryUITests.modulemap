@@ -1,0 +1,6 @@
+framework module Pods_NotaryUITests {
+  umbrella header "Pods-NotaryUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
